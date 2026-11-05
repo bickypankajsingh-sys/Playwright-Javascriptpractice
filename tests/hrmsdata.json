@@ -1,0 +1,20 @@
+
+{
+  "valid_users": [
+    {
+      "First Name": "Lalita",
+      "Last Name": "Sharma",
+      "Email": "lalita.sharma@example.com"
+    },
+    {
+      "First Name": "Rohit",
+      "Last Name": "Verma",
+      "Email": "rohit.verma@example.com"
+    },
+    {
+      "First Name": "Anjali",
+      "Last Name": "Kumar",
+      "Email": "anjali.kumar@example.com"
+    }
+  ]
+}

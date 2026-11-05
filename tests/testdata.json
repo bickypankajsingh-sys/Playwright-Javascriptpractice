@@ -1,0 +1,19 @@
+{
+  "environments": {
+    "qa": {
+      "url": "https://www.saucedemo.com",
+      "userName": "standard_user",
+      "password": "secret_sauce"
+    },
+    "stage": {
+      "url": "https://www.saucedemo.com/inventory.html",
+      "userName": "problem_user",
+      "password": "secret_sauce"
+    },
+    "prod": {
+      "url": "https://www.gmail.com",
+      "userName": "visual_user",
+      "password": "secret_sauce"
+    }
+  }
+}

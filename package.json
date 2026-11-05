@@ -1,0 +1,26 @@
+
+{
+  "name": "javascriptpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day1.1.spec.js",
+  "scripts": {
+    "test:qa": "cross-env TEST_ENV=qa playwright test environmentLogin.spec.js",
+    "test:stage": "cross-env TEST_ENV=stage playwright test environmentLogin.spec.js",
+    "test:prod": "cross-env TEST_ENV=prod playwright test environmentLogin.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  }
+}
+
+
